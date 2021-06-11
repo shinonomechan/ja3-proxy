@@ -22,7 +22,7 @@ conn.set_tunnel(
     }
 )
 
-conn.request("GET", "/json", headers={"User-Agent": "x"})
+conn.request("GET", "/json")
 resp = conn.getresponse()
 print(resp.read())
 ```
