@@ -1,6 +1,6 @@
 # ja3-proxy
  
-Golang HTTP proxy server for spoofing JA3 fingerprints.
+Golang HTTP proxy server for spoofing JA3 fingerprints. Chrome and firefox fingerprints are not functional so far.
 
 # Usage
 ```bash
